@@ -36,7 +36,7 @@
      unarchive: src=/home/ubuntu/tomcat/apache-tomcat-8.0.27.tar.gz dest=/home/ubuntu/tomcat remote_src=yes
   
    - name: Download Application
-     get_url: url=https://s3-us-west-2.amazonaws.com/vetinary/petclinic.war dest=/home/ubuntu/
+     get_url: url=https://s3.amazonaws.com/project544/petclinic.war dest=/home/ubuntu/
    - name: start apache-tomcat-8.0.27
      command: /home/ubuntu/tomcat/apache-tomcat-8.0.27/bin/startup.sh
 
